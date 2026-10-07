@@ -1,192 +1,178 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Site 73 RP</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-```
-<header class="navbar">
-    <div class="logo">SITE 73 <span>RP</span></div>
+    <header class="navbar">
 
-    <nav>
-        <button onclick="showPage('accueil')">Accueil</button>
-        <button onclick="showPage('info')">Info</button>
-        <button onclick="showPage('evenements')">Événements</button>
-        <button onclick="showPage('spoilers')">Spoilers</button>
-        <button onclick="showPage('assistance')">Assistance</button>
-    </nav>
-
-    <div class="status">
-        <span class="status-dot"></span>
-        <span id="serverStatus">ACTIF</span>
-    </div>
-</header>
-
-
-<main>
-
-    <!-- ACCUEIL -->
-    <section id="accueil" class="page active">
-        <div class="hero">
-            <p class="small-title">ROBLOX SCP ROLEPLAY</p>
-
-            <h1>SITE <span>73</span> RP</h1>
-
-            <p class="description">
-                Bienvenue sur le portail officiel de Site 73 RP.
-                Retrouvez ici toutes les informations du serveur,
-                les événements, les nouveautés et l'assistance.
-            </p>
-
-            <div class="buttons">
-                <button class="primary" onclick="showPage('info')">
-                    Découvrir le site
-                </button>
-
-                <button class="secondary">
-                    Discord
-                </button>
-            </div>
+        <div class="logo">
+            SITE 73 <span>RP</span>
         </div>
 
-        <div class="cards">
-
-            <div class="card">
-                <div class="icon">ℹ️</div>
-                <h3>Informations</h3>
-                <p>
-                    Retrouvez toutes les informations concernant Site 73 RP.
-                </p>
-                <button onclick="showPage('info')">Voir</button>
-            </div>
-
-            <div class="card">
-                <div class="icon">📅</div>
-                <h3>Événements</h3>
-                <p>
-                    Découvrez les prochains événements organisés sur le serveur.
-                </p>
-                <button onclick="showPage('evenements')">Voir</button>
-            </div>
-
-            <div class="card">
-                <div class="icon">👀</div>
-                <h3>Spoilers</h3>
-                <p>
-                    Découvrez les nouveautés et futurs contenus du serveur.
-                </p>
-                <button onclick="showPage('spoilers')">Voir</button>
-            </div>
-
-            <div class="card">
-                <div class="icon">🎫</div>
-                <h3>Assistance</h3>
-                <p>
-                    Besoin d'aide ? Ouvrez une demande auprès du staff.
-                </p>
-                <button onclick="showPage('assistance')">Ouvrir</button>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- INFO -->
-    <section id="info" class="page">
-        <div class="page-header">
-            <p>INFORMATIONS</p>
-            <h2>À propos de <span>Site 73 RP</span></h2>
-        </div>
-
-        <div class="content-box">
-            <h3>Bienvenue sur Site 73 RP</h3>
-
-            <p>
-                Site 73 RP est un serveur Roblox inspiré de l'univers SCP.
-                Cette page sera utilisée pour présenter le serveur,
-                son fonctionnement et son univers.
-            </p>
-
-            <p>
-                Les informations pourront être modifiées depuis
-                l'administration du site dans une future version.
-            </p>
-        </div>
-    </section>
-
-
-    <!-- EVENEMENTS -->
-    <section id="evenements" class="page">
-        <div class="page-header">
-            <p>ACTUALITÉS</p>
-            <h2>Événements</h2>
-        </div>
-
-        <div class="empty-box">
-            <div class="big-icon">📅</div>
-            <h3>Aucun événement</h3>
-            <p>
-                Les prochains événements seront affichés ici.
-            </p>
-        </div>
-    </section>
-
-
-    <!-- SPOILERS -->
-    <section id="spoilers" class="page">
-        <div class="page-header">
-            <p>NOUVEAUTÉS</p>
-            <h2>Spoilers</h2>
-        </div>
-
-        <div class="empty-box">
-            <div class="big-icon">👀</div>
-            <h3>Aucun spoiler</h3>
-            <p>
-                Les prochaines nouveautés de Site 73 RP apparaîtront ici.
-            </p>
-        </div>
-    </section>
-
-
-    <!-- ASSISTANCE -->
-    <section id="assistance" class="page">
-        <div class="page-header">
-            <p>SUPPORT</p>
-            <h2>Assistance</h2>
-        </div>
-
-        <div class="support-box">
-            <div class="big-icon">🎫</div>
-
-            <h3>Besoin d'aide ?</h3>
-
-            <p>
-                Créez une demande afin de contacter le staff de Site 73 RP.
-            </p>
-
-            <button class="primary">
-                Créer un ticket
+        <nav>
+            <button onclick="showPage('accueil')">
+                Accueil
             </button>
+
+            <button onclick="showPage('info')">
+                Info
+            </button>
+        </nav>
+
+        <div class="status">
+            <span class="status-dot"></span>
+            <span id="serverStatus">ACTIF</span>
         </div>
-    </section>
 
-</main>
-
-
-<footer>
-    <p>© 2026 Site 73 RP — Tous droits réservés.</p>
-</footer>
+    </header>
 
 
-<script src="script.js"></script>
-```
+    <main>
+
+        <!-- ACCUEIL -->
+
+        <section id="accueil" class="page active">
+
+            <div class="hero">
+
+                <p class="small-title">
+                    ROBLOX SCP ROLEPLAY
+                </p>
+
+                <h1>
+                    SITE <span>73</span> RP
+                </h1>
+
+                <p class="description">
+                    Plongez dans un univers SCP Roleplay sur Roblox,
+                    rejoignez le Site 73 et vivez des situations
+                    uniques avec notre communauté.
+                </p>
+
+                <div class="buttons">
+
+                    <button class="primary" onclick="showPage('info')">
+                        Découvrir le serveur
+                    </button>
+
+                    <a
+                        class="secondary"
+                        href="https://discord.gg/Gga8xfwqvj"
+                        target="_blank"
+                    >
+                        Rejoindre le Discord
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- INFO -->
+
+        <section id="info" class="page">
+
+            <div class="page-header">
+
+                <p>
+                    SITE 73 RP
+                </p>
+
+                <h2>
+                    À propos du <span>serveur</span>
+                </h2>
+
+            </div>
+
+
+            <div class="content-box">
+
+                <h3>
+                    Bienvenue sur Site 73 RP
+                </h3>
+
+                <p>
+                    Site 73 RP est un serveur Roblox SCP Roleplay
+                    créé pour proposer une expérience immersive,
+                    conviviale et surtout amusante.
+                </p>
+
+                <p>
+                    Rejoignez le Site 73 et incarnez le rôle de votre
+                    choix. Sécurité, scientifiques, membres du personnel,
+                    unités spécialisées et bien d'autres rôles vous
+                    permettront de participer à la vie du site.
+                </p>
+
+                <p>
+                    Notre objectif est de construire une communauté
+                    active où chacun peut profiter du Roleplay,
+                    participer aux événements et créer ses propres
+                    histoires.
+                </p>
+
+                <p>
+                    Vous trouverez une communauté composée de personnes
+                    sympathiques et prêtes à jouer ensemble dans une
+                    bonne ambiance.
+                </p>
+
+                <p>
+                    Le serveur est entre de bonnes mains : notre équipe
+                    veille au bon fonctionnement du serveur et à ce que
+                    chacun puisse profiter de son expérience dans les
+                    meilleures conditions possibles.
+                </p>
+
+                <div class="discord-box">
+
+                    <h3>
+                        Rejoignez-nous !
+                    </h3>
+
+                    <p>
+                        Pour suivre les actualités, discuter avec la
+                        communauté et ne manquer aucune nouveauté,
+                        rejoignez notre Discord officiel.
+                    </p>
+
+                    <a
+                        class="primary discord-button"
+                        href="https://discord.gg/Gga8xfwqvj"
+                        target="_blank"
+                    >
+                        Rejoindre le Discord
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Site 73 RP — Tous droits réservés.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
